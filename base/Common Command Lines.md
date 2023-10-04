@@ -1,5 +1,5 @@
 - "下载单独一个文件"
-- `$url = "https://github.com/WSLeon/WSLeon/raw/main/static/touxiang.jpg"`
+- `$url = "https://raw.githubusercontent.com/github/gitignore/main/Java.gitignore"`
 - `$fileExtension = [System.IO.Path]::GetExtension($url)`
 - `$fileName = [System.IO.Path]::GetFileName($url)`
 - `Invoke-WebRequest -Uri $url -OutFile $fileName`
